@@ -1,88 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Machan's Salon</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Machan's Salon</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-white text-gray-800">
-  <!-- Header -->
-  <header class="bg-pink-600 text-white p-4 shadow-md">
-    <div class="container mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold">Machan's Salon</h1>
-      <nav class="space-x-4 hidden md:block">
-        <a href="#home" class="hover:underline">Home</a>
-        <a href="#about" class="hover:underline">About</a>
-        <a href="#services" class="hover:underline">Services</a>
-        <a href="#gallery" class="hover:underline">Gallery</a>
-        <a href="#contact" class="hover:underline">Contact</a>
-      </nav>
-    </div>
-  </header>
+<body class="bg-white text-gray-800 font-sans">
 
-  <!-- Home -->
-  <section id="home" class="text-center py-16 px-4 bg-pink-50">
-    <h2 class="text-4xl font-bold mb-4">Welcome to Machan's Salon</h2>
-    <p class="text-lg">Where beauty meets passion. Experience the best hair and beauty care in town!</p>
-  </section>
-
-  <!-- About -->
-  <section id="about" class="py-16 px-4">
-    <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-3xl font-semibold mb-4">About Us</h2>
-      <p>Machan's Salon is your friendly neighborhood beauty spot with professional stylists ready to bring out the best in you. Friendly service, cozy vibe, and top-notch results!</p>
-    </div>
-  </section>
-
-  <!-- Services -->
-  <section id="services" class="py-16 px-4 bg-gray-100">
-    <div class="max-w-4xl mx-auto">
-      <h2 class="text-3xl font-semibold text-center mb-8">Our Services</h2>
-      <div class="grid md:grid-cols-3 gap-6">
-        <div class="bg-white p-6 rounded-lg shadow">
-          <h3 class="text-xl font-bold mb-2">Hair Cuts</h3>
-          <p>Trendy styles, trims, and everything in between.</p>
+    <header class="bg-pink-600 text-white p-4 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Machan's Salon</h1>
+            <nav class="space-x-4 hidden md:block text-sm font-medium">
+                <a href="#home" class="hover:bg-white hover:text-pink-600 px-3 py-1 rounded transition">Home</a>
+                <a href="#about" class="hover:bg-white hover:text-pink-600 px-3 py-1 rounded transition">About</a>
+                <a href="#services" class="hover:bg-white hover:text-pink-600 px-3 py-1 rounded transition">Services</a>
+                <a href="#gallery" class="hover:bg-white hover:text-pink-600 px-3 py-1 rounded transition">Gallery</a>
+                <a href="contact.html" class="hover:bg-white hover:text-pink-600 px-3 py-1 rounded transition">Contact</a>
+            </nav>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow">
-          <h3 class="text-xl font-bold mb-2">Coloring</h3>
-          <p>From natural tones to bold colors, we got you!</p>
+    </header>
+
+    <section id="home" class="text-center py-20 px-4 bg-pink-50">
+        <h2 class="text-4xl sm:text-5xl font-extrabold mb-4">Welcome to Machan's Salon</h2>
+        <p class="text-lg sm:text-xl max-w-2xl mx-auto">Where beauty meets passion. Experience the best hair and beauty care in town!</p>
+    </section>
+
+    <section id="about" class="py-16 px-4">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl sm:text-4xl font-semibold mb-4">About Us</h2>
+            <p class="text-base sm:text-lg text-gray-700">Machan's Salon is your friendly neighborhood beauty spot with professional stylists ready to bring out the best in you. Friendly service, cozy vibe, and top-notch results!</p>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow">
-          <h3 class="text-xl font-bold mb-2">Facials & Treatments</h3>
-          <p>Pamper your skin with our relaxing treatments.</p>
+    </section>
+
+    <section id="services" class="py-16 px-4 bg-gray-100">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-semibold text-center mb-10">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-bold mb-2">Hair Cuts</h3>
+                    <p>Trendy styles, trims, and everything in between.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-bold mb-2">Coloring</h3>
+                    <p>From natural tones to bold colors, we got you!</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-bold mb-2">Facials & Treatments</h3>
+                    <p>Pamper your skin with our relaxing treatments.</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Gallery -->
-  <section id="gallery" class="py-16 px-4">
-    <h2 class="text-3xl font-semibold text-center mb-8">Gallery</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto">
-      <div class="bg-gray-200 h-40"></div>
-      <div class="bg-gray-300 h-40"></div>
-      <div class="bg-gray-200 h-40"></div>
-      <div class="bg-gray-300 h-40"></div>
-    </div>
-  </section>
+    <section id="gallery" class="py-16 px-4">
+        <h2 class="text-3xl sm:text-4xl font-semibold text-center mb-10">Gallery</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
+            <div class="overflow-hidden rounded-lg shadow-sm">
+                <img src="p1.jpg" alt="Salon" class="w-full h-40 object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+            <div class="overflow-hidden rounded-lg shadow-sm">
+                <img src="p2.jpg" alt="Salon" class="w-full h-40 object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+            <div class="overflow-hidden rounded-lg shadow-sm">
+                <img src="p3.jpg" alt="Salon" class="w-full h-40 object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+            <div class="overflow-hidden rounded-lg shadow-sm">
+                <img src="p4.jpg" alt="Salon" class="w-full h-40 object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+        </div>
+    </section>
 
-  <!-- Contact -->
-  <section id="contact" class="py-16 px-4 bg-gray-100">
-    <div class="max-w-xl mx-auto">
-      <h2 class="text-3xl font-semibold text-center mb-4">Contact Us</h2>
-      <form class="space-y-4">
-        <input type="text" placeholder="Name" class="w-full p-2 border rounded" />
-        <input type="email" placeholder="Email" class="w-full p-2 border rounded" />
-        <textarea placeholder="Message" rows="4" class="w-full p-2 border rounded"></textarea>
-        <button type="submit" class="bg-pink-600 text-white px-4 py-2 rounded">Send</button>
-      </form>
-    </div>
-  </section>
+    <footer class="text-center p-4 bg-pink-600 text-white mt-10">
+        <p class="text-sm">&copy; 2025 Machan's Salon. All rights reserved.</p>
+    </footer>
 
-  <!-- Footer -->
-  <footer class="text-center p-4 bg-pink-600 text-white">
-    <p>&copy; 2025 Machan's Salon. All rights reserved.</p>
-  </footer>
 </body>
 </html>
